@@ -1,0 +1,151 @@
+{
+  "data": {
+    "dynamic": [
+      {
+        "type": 3,
+        "name": "image1",
+        "value": {
+          "url": "https://placehold.co/0x0/transparent/F00"
+        }
+      },
+      {
+        "type": 1,
+        "name": "text1",
+        "value": ""
+      },
+      {
+        "type": 1,
+        "name": "label1",
+        "value": ""
+      },
+      {
+        "type": 3,
+        "name": "icon1",
+        "value": {
+          "url": "https://placehold.co/0x0/transparent/F00"
+        }
+      },
+      {
+        "type": 3,
+        "name": "icon2",
+        "value": {
+          "url": "https://placehold.co/0x0/transparent/F00"
+        }
+      },
+      {
+        "type": 1,
+        "name": "label2",
+        "value": ""
+      },
+      {
+        "type": 3,
+        "name": "icon3",
+        "value": {
+          "url": "https://placehold.co/0x0/transparent/F00"
+        }
+      },
+      {
+        "type": 1,
+        "name": "label3",
+        "value": ""
+      },
+      {
+        "type": 3,
+        "name": "statimg1",
+        "value": {
+          "url": "https://placehold.co/0x0/transparent/F00"
+        }
+      },
+      {
+        "type": 1,
+        "name": "statname1",
+        "value": ""
+      },
+      {
+        "type": 1,
+        "name": "statlabel1",
+        "value": ""
+      },
+      {
+        "type": 3,
+        "name": "statimg2",
+        "value": {
+          "url": "https://placehold.co/0x0/transparent/F00"
+        }
+      },
+      {
+        "type": 1,
+        "name": "statname2",
+        "value": ""
+      },
+      {
+        "type": 1,
+        "name": "statlabel2",
+        "value": ""
+      },
+      {
+        "type": 3,
+        "name": "statimg3",
+        "value": {
+          "url": "https://placehold.co/0x0/transparent/F00"
+        }
+      },
+      {
+        "type": 1,
+        "name": "statname3",
+        "value": ""
+      },
+      {
+        "type": 1,
+        "name": "statlabel3",
+        "value": ""
+      },
+      {
+        "type": 3,
+        "name": "statimg4",
+        "value": {
+          "url": "https://placehold.co/0x0/transparent/F00"
+        }
+      },
+      {
+        "type": 1,
+        "name": "statname4",
+        "value": ""
+      },
+      {
+        "type": 1,
+        "name": "statlabel4",
+        "value": ""
+      },
+      {
+        "type": 1,
+        "name": "heroimg",
+        "value": ""
+      },
+      {
+        "type": 1,
+        "name": "minilabel",
+        "value": ""
+      },
+      {
+        "type": 1,
+        "name": "minitext",
+        "value": ""
+      },
+      {
+        "type": 3,
+        "name": "miniicon",
+        "value": {
+          "url": "https://placehold.co/0x0/transparent/F00"
+        }
+      },
+      {
+        "type": 3,
+        "name": "miniheroimg",
+        "value": {
+          "url": "https://placehold.co/0x0/transparent/F00"
+        }
+      }
+    ]
+  }
+}
