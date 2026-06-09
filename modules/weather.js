@@ -1,9 +1,11 @@
 const DynamicWidgetProfile = require('./widget.js');
+const { parseTime, parseTimeLiteral } = require('./utils');
 
 class WeatherWidget {
-    constructor(location='Oslo') {
+    constructor(location='Oslo', updateInterval = null) {
         this.widgetProfile = new DynamicWidgetProfile();
         this.location = location;
+        this.updateInterval = updateInterval;
     }
 
     async updateWeather() {
@@ -23,8 +25,7 @@ class WeatherWidget {
 
             this.widgetProfile.update('label1', condition);
             this.widgetProfile.update('label2', `UV Index: ${uv}`);
-            this.widgetProfile.update('label3', 'Current Dynamic widget: Weather');
-
+            this.widgetProfile.update('label3', 'Live weather update every ' + (parseTimeLiteral(this.updateInterval)));
 
             this.widgetProfile.update('statimg1', this.emojiToUrl(moonPhase));
             this.widgetProfile.update('statname1', `Lunar day: ${moonDay}`);
@@ -42,7 +43,6 @@ class WeatherWidget {
 
             this.widgetProfile.update('statimg4', this.emojiToUrl("💨"));
             this.widgetProfile.update('statname4', `Wind: ${wind}`);
-            this.widgetProfile.dump();
             this.widgetProfile.push().then(() => console.log('Weather profile updated successfully!'))
             .catch((error) => console.error('Error updating weather profile:', error));
         } catch (error) {
